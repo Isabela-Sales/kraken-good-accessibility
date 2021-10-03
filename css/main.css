@@ -101,6 +101,10 @@ nav a {
   height: 2.5rem;
 }
 
+header nav:last-of-type a:not(.current) :hover {
+  color: #fff;
+}
+
 nav a:hover,
 nav a:focus {
   background-color: #1e7c74;
